@@ -10,11 +10,49 @@ body {
     background-attachment: fixed;
 }
 
-h1 {
+h1, h2 {
 	font-family: 'Ubuntu', Helvetica, sans-serif;
+	margin-top: 0;
 }
 
 main {
 	background-color: rgba(255, 255, 255, .7);
 	margin-left: 30%;
+	border-radius: 5px;
+}
+
+header {
+	background-color: #43B3D8;
+	padding: 1em;
+	color: #FFFFFF;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-bottom: 5px solid #33A3C8;
+	line-height: .8em;
+}
+
+header p {
+	font-family: 'Ubuntu';
+	font-size: 150%;
+	margin-bottom: 0;
+}
+
+section, footer {
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+.mission {
+	background-color: rgba(168,207,218,.7);
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+.mission p {
+	margin-bottom: 0;
+}
+
+footer p{
+	padding-bottom: .5em;
+	margin-bottom: 0;
 }
